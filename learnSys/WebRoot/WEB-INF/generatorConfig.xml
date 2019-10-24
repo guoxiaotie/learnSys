@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE generatorConfiguration PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN" "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+<generatorConfiguration>
+  <context id="context1">
+    
+    <jdbcConnection connectionURL="jdbc:mysql://39.106.171.239:3306/learn" driverClass="com.mysql.jdbc.Driver" userId="learn"  password="123" />
+    <javaModelGenerator targetPackage="com.xafdy.model" targetProject="learnSys/src" />
+    <sqlMapGenerator targetPackage="com.xafdy.mapper" targetProject="learnSys/src" />
+    <javaClientGenerator targetPackage="com.xafdy.dao" targetProject="learnSys/src" type="XMLMAPPER" />
+    
+    <table tableName="admin"></table> 
+    
+  </context>
+</generatorConfiguration>
